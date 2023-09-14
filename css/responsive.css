@@ -1,0 +1,517 @@
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 280px) and (max-width: 767px) {
+	/*header section*/
+  /*header top*/
+	.md-hide {
+		display: none;
+	}
+	.logo {
+		padding: 15px 0px 0px 0px;
+		text-align: center;
+	}
+	.header-search {
+		margin: 0;
+		padding: 45px;
+	}
+	.header-search a {
+		width: 8%;
+	}
+	.header-search input {
+		width: 80%;
+		float: left;
+	}
+	 /*header menu*/
+	 .header-menu {
+	    display: none;
+	}
+
+	/*slider section*/
+	.nivo-directionNav a {
+		display: none;
+	}
+
+	/*find home section*/
+
+	.find-home-section:before{
+		display: none;
+	}
+	.find-home-title {
+		padding: 20px 0px 20px 0px;
+		text-align: center;
+	}
+	.find-home-title h3 {
+		font-size: 16px;
+	}
+	.find-home-title h2 {
+		font-size: 20px;
+	}
+	.find-home-section .btn {
+		font-size: 14px;
+		margin-bottom: 25px;
+	}
+	.find-home-section .dropdown {
+		padding: 0;
+	}
+	.find-home-section .textbox {
+		font-size: 14px;
+		margin: 0;
+	}
+	.find-home-section .search-btn {
+		margin-top: 10px;
+		padding: 8px;
+	}
+	/*about section*/
+	.about-title {
+		text-align: center;
+	}
+	.about-title h3, .about-title h2 {
+		font-size: 18px;
+	}
+	.about-para p {
+		font-size: 13px;
+	}
+	/*Services area*/
+	.service-section-title p {
+	  font-size: 13px;
+	}
+	.service-item-info p {
+		font-size: 13px;
+	}
+	/*booking appartment section*/
+	.booking-section::before {
+		display: none;
+	}
+	.booking-title {
+		padding: 60px 0px;
+		text-align: center;
+	}
+	.booking-title h3 {
+		font-size: 18px;
+	}
+	.booking-title h2 {
+	    font-size: 26px;
+	}
+	.booking-top-title {
+		padding: 0px 0px 45px 0px;
+		text-align: center;
+		width: 100%;
+	}
+	.booking-top-title h2 {
+		font-size: 15px;
+	}
+	.booking-top-title h3 {
+		font-size: 15px;
+	}
+	.booking-image {
+		display: none;
+	}
+	 /*Featured property area*/
+	.feature-section-title p {
+	    font-size: 13px;
+	}
+	/*awesome features section*/
+	.awesome-feature-section {
+		background: none;
+	}
+	.features-info-item-list {
+		padding: 0px 0px 10px 0px;
+	}
+	.awesome-feature-section:after{
+	  width: 100%;
+	}
+	.feature-title h3 {
+	    font-size: 16px;
+	}
+	.feature-title h2 {
+	    font-size: 20px;
+	}
+	.feature-para p {
+	    font-size: 13px;
+	}
+	.feature-title {
+		padding: 30px 0px;
+		text-align: center;
+	}
+	.feature-title h3 {
+	    font-size: 18px;
+	}
+	.feature-title h2 {
+	    font-size: 26px;
+	}
+	/*happy client section*/
+	.client-title {
+		text-align: center;
+	}
+	.client-title h2 {
+	    font-size: 20px;
+	}
+	.client-title h3{
+	    font-size: 20px;
+	}
+	.client-description p {
+	    font-size: 13px;
+	}
+	.client-description p span {
+	    font-size: 14px;
+	}
+	.client-item h5 {
+	    font-size: 16px;
+	}
+
+	/*from blog section*/
+	.from-blog-section-title p {
+	    font-size: 13px;
+	}
+	/*subscribe section*/
+	.subcribe-section::before {
+		display: none;
+	}
+	.subcribe-section-title {
+		margin-left: 0px; 
+		text-align: center;
+	}
+	.subcribe-section-title h3 {
+	    font-size: 16px;
+	}
+	.subcribe-section-title h2{
+	    font-size: 20px;
+	}
+	.subscribe form input {
+		width: 100%;
+		margin-left: 0;
+	}
+	.subscribe form button {
+		margin: 15px 0px 0px 0px;
+		width: 100%;
+	}
+	/*footer section*/
+	.sm-show {
+		display: block;
+	}
+	/*banner section*/
+	.banner-text .banner-title {
+		font-size: 20px;
+		padding: 60px 0px;
+	}
+	.banner-text .banner-list li{
+	    font-size: 12px;
+	}
+	.banner-text .banner-list li a{
+	    font-size: 12px;
+	}
+	/*contact section*/
+	.contact-title {
+		font-size: 16px;
+		text-align: center;
+	}
+	.contact-title span {
+	    font-size: 20px;
+	}
+	.contact-para p {
+	    font-size: 13px;
+	}
+	/*Map Section */
+	.mapSection iframe {
+	    height: 340px;
+	}
+	/*back to top*/
+	.backToTop {
+		height: 30px;
+		width: 30px;
+	}
+
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991px) {
+	/*header section*/
+  /*header top*/
+	.md-hide {
+		display: none;
+	}
+	 /*header menu*/
+	 .header-menu .nav-item {
+		padding: 5px;
+	}
+	.header-menu .nav-link {
+		font-size: 12px;
+	}
+	/*sticky top*/
+	.sticky .nav > li > a {
+		font-size: 12px;
+		padding: 18px 4px;
+	}
+	/*find home section*/
+
+	.find-home-section:before{
+		display: none;
+	}
+	.find-home-title {
+		padding: 20px 0px 0px 0px;
+		text-align: center;
+	}
+	.find-home-title h3 {
+		font-size: 18px;
+	}
+	.find-home-title h2 {
+		font-size: 26px;
+	}
+	.find-home-section .btn {
+		font-size: 14px;
+	}
+	.find-home-section .dropdown {
+		padding: 35px 0px 40px 0px;
+	}
+	.find-home-section .dropdown-toggle::after {
+	    margin-top: 0px;
+	}
+	.find-home-section .textbox {
+		font-size: 14px;
+		margin-top: 35px;
+	}
+	.find-home-section .search-btn {
+		margin-top: 40px;
+		padding: 8px;
+	}
+	/*about section*/
+	.about-title h3, .about-title h2 {
+		font-size: 18px;
+	}
+	.about-para p {
+		font-size: 13px;
+	}
+	/*Services area*/
+	.service-section-title p {
+	  font-size: 13px;
+	}
+	.service-item-info p {
+		font-size: 13px;
+	}
+
+	/*booking appartment section*/
+	.booking-section::before {
+		margin-left: -100px;
+		width: 38%;
+	}
+	.booking-title {
+		padding: 30px 0px;
+	}
+	.booking-title h3 {
+		font-size: 18px;
+	}
+	.booking-title h2 {
+	    font-size: 26px;
+	}
+	.booking-top-title {
+		padding: 45px 0px 0px 40px;
+	}
+	.booking-top-title h2 {
+		font-size: 15px;
+	}
+	.booking-top-title h3 {
+		font-size: 15px;
+	}
+
+	 /*Featured property area*/
+	.feature-section-title p {
+	    font-size: 13px;
+	}
+	/*awesome features section*/
+	.awesome-feature-section {
+		background: none;
+	}
+	.awesome-feature-section:after{
+	  width: 100%;
+	}
+	.feature-title h3 {
+	    font-size: 18px;
+	}
+	.feature-title h2 {
+	    font-size: 26px;
+	}
+	/*our agents section*/
+	.agent-section-title p {
+	  font-size: 13px;
+	}
+
+	/*happy client section*/
+	.client-title h2 {
+	    font-size: 26px;
+	}
+	.client-title h3{
+	    font-size: 18px;
+	}
+	.client-description p {
+	    font-size: 13px;
+	}
+	.client-description p span {
+	    font-size: 14px;
+	}
+	.client-item h5 {
+	    font-size: 16px;
+	}
+
+	/*from blog section*/
+	.from-blog-section-title p {
+	    font-size: 13px;
+	}
+	/*subscribe section*/
+	.subcribe-section:before {
+	    width: 40%;
+	}
+	.subcribe-section-title {
+	 margin-left: 0px; 
+	}
+	.subcribe-section-title h3 {
+	    font-size: 18px;
+	}
+	.subcribe-section-title h2{
+	    font-size: 26px;
+	}
+	/*footer section*/
+	.md-hide{
+		display: none;
+	}
+	/*banner section*/
+	.banner-text .banner-title {
+		font-size: 20px;
+		padding: 60px 0px;
+	}
+	.banner-text .banner-list li{
+	    font-size: 12px;
+	}
+	.banner-text .banner-list li a{
+	    font-size: 12px;
+	}
+	/*contact section*/
+	.contact-title {
+		font-size: 16px;
+		text-align: center;
+	}
+	.contact-title span {
+	    font-size: 20px;
+	}
+	.contact-para p {
+	    font-size: 13px;
+	}
+	/*Map Section */
+	.mapSection iframe {
+	    height: 340px;
+	}
+	.mobile-menu-area{
+		display: none;
+	}
+}
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199px) {
+	
+    /*header menu*/
+	.header-menu .nav-link {
+		font-size: 14px;
+	}
+	/*find home section*/
+	.find-home-title h3 {
+		font-size: 18px;
+	}
+	.find-home-title h2 {
+		font-size: 26px;
+	}
+	.find-home-section .btn {
+		font-size: 14px;
+	}
+	.find-home-section .dropdown {
+	    padding: 60px 0px 0px 0px;
+	}
+	.find-home-section .dropdown-toggle::after {
+	    margin-top: 0px;
+	}
+	.find-home-section .textbox {
+		font-size: 14px;
+	}
+	.find-home-section .search-btn {
+		margin-top: 50px;
+		padding: 8px;
+	}
+	/*about section*/
+	.about-title h3, .about-title h2 {
+		font-size: 18px;
+	}
+	/*Services area*/
+	.service-section-title p {
+	  font-size: 13px;
+	}
+	.service-item-info p {
+		font-size: 13px;
+	}
+
+
+	/*booking appartment section*/
+	.booking-title {
+		padding: 60px 0px;
+	}
+	.booking-title h3 {
+		font-size: 18px;
+	}
+	.booking-title h2 {
+	    font-size: 26px;
+	}
+	.booking-top-title {
+		padding: 65px 0px 0px 40px;
+	}
+	.booking-top-title h2 {
+		font-size: 22px;
+	}
+	.booking-top-title h3 {
+		font-size: 22px;
+	}
+
+	 /*Featured property area*/
+	.feature-section-title p {
+	    font-size: 13px;
+	}
+	/*awesome features section*/
+	.awesome-feature-section::after {
+		width: 78%;
+		margin-right: -125px;
+	}
+	.feature-title h3 {
+	    font-size: 18px;
+	}
+	.feature-title h2 {
+	    font-size: 26px;
+	}
+	.lg-hide {
+		display: none;
+	}
+	/*our agents section*/
+	.agent-section-title p {
+	  font-size: 13px;
+	}
+	/*from blog section*/
+	.from-blog-section-title p {
+	    font-size: 13px;
+	}
+	/*subscribe section*/
+	.subcribe-section-title {
+	 margin-left: 0px; 
+	}
+	.subcribe-section-title h3 {
+	    font-size: 18px;
+	}
+	.subcribe-section-title h2{
+	    font-size: 26px;
+	}
+
+	.mobile-menu-area{
+		display: none;
+	}
+
+}
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) and (max-width: 1700px){
+	.mobile-menu-area{
+		display: none;
+	}
+}
